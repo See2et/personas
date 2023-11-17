@@ -5,5 +5,5 @@ export default function getPersona(id: string) {
     if (!v.id) return false;
     if (v.id !== id) return false;
     return true;
-  }) ?? { id: "", username: "unknown" };
+  }) ?? { id: "", username: "unknown", misskey_id: "", avatar_url: "" };
 }

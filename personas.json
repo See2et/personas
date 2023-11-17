@@ -2,19 +2,25 @@
   {
     "id": "se",
     "username": "See2et / しーぜっと",
-    "avatar_url": "https://pub-33506eaed9964123b5ace46f04f3d73a.r2.dev/files/04e2c480-e834-4567-8d1e-b12fd698aa0c.webp"
+    "avatar_url": "https://pub-33506eaed9964123b5ace46f04f3d73a.r2.dev/files/04e2c480-e834-4567-8d1e-b12fd698aa0c.webp",
+    "misskey_id": "see2et"
   },
   {
     "id": "sh",
     "username": "sh1rase / 白瀬ぬい",
-    "avatar_url": "https://pub-33506eaed9964123b5ace46f04f3d73a.r2.dev/files/81d7f946-8fd6-4327-8ae8-e0ab4ce0f993.webp"
+    "avatar_url": "https://pub-33506eaed9964123b5ace46f04f3d73a.r2.dev/files/81d7f946-8fd6-4327-8ae8-e0ab4ce0f993.webp",
+    "misskey_id": "sh1rase"
   },
   {
     "id": "k0",
-    "username": "k0phy / こふぃー"
+    "username": "k0phy / こふぃー",
+    "avatar_url": "",
+    "misskey_id": "k0phy"
   },
   {
     "id": "m1",
-    "username": "m1nadzuki / 水無月むな"
+    "username": "m1nadzuki / 水無月むな",
+    "avatar_url": "",
+    "misskey_id": "m1nadzuki"
   }
 ]

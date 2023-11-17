@@ -77,7 +77,7 @@ bot.events.interactionCreate = async (b, interaction) => {
       const id = interaction.data.options[0].value;
       const persona = getPersona(`${id}`);
       const body = JSON.stringify({
-        query: persona.username,
+        query: persona.misskey_id,
         offset: 0,
         limit: 1,
         origin: "local",
