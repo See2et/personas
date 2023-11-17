@@ -1,3 +1,5 @@
+import config from "../config.json" assert { type: "json" };
+
 export function sendWebhook(id: string, content: string) {
   let username: string;
   let avatar_url: string | null = null;
@@ -30,7 +32,7 @@ export function sendWebhook(id: string, content: string) {
   });
 
   fetch(
-    "https://discord.com/api/webhooks/1173502919203635231/As5RbWGsyJhDHAIefDSkk_eBSg_tQk56Zrk7folLoKS2iQCejT-k5Quchg5Ai1S9-Evr",
+    config.webhookId,
     {
       method: "POST",
       headers: {
