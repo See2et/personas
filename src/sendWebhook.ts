@@ -1,12 +1,9 @@
 import config from "../config.json" assert { type: "json" };
 import personas from "../personas.json" assert { type: "json" };
+import getPersona from "./getPersona.ts";
 
 export function sendWebhook(id: string, content: string) {
-  const info = personas.find((v) => {
-    if (!v.id) return false;
-    if (v.id !== id) return false;
-    return true;
-  }) ?? { id: "", username: "unknown" };
+  const info = getPersona(id);
 
   const body = JSON.stringify({
     content,
