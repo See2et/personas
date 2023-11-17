@@ -102,6 +102,7 @@ bot.events.interactionCreate = async (b, interaction) => {
               url: `${persona.avatar_url}`,
             },
             description: mi[0].description ?? "",
+            url: `https://mi.see2et.dev/@${persona.misskey_id}`,
           }],
         },
       });
