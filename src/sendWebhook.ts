@@ -10,7 +10,8 @@ export function sendWebhook(id: string, content: string) {
 
   const body = JSON.stringify({
     content,
-    ...info,
+    username: info.username,
+    avatar_url: info.avatar_url,
   });
 
   fetch(
