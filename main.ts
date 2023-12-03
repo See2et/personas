@@ -56,8 +56,8 @@ const commands = [sayCommand, profileCommand];
 
 commands.map(async (v) => {
   await bot.helpers.createGuildApplicationCommand(v, config.guildId);
-  await bot.helpers.upsertGuildApplicationCommands(config.guildId, [v]);
 });
+await bot.helpers.upsertGuildApplicationCommands(config.guildId, commands);
 
 bot.events.interactionCreate = async (b, interaction) => {
   switch (interaction.data?.name) {
